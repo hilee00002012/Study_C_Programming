@@ -6,7 +6,7 @@ int main() {
 	printf("input num : ");
 	scanf("%d", &num1);
 
-	while(num2 < 10 && num2 > 0) {
+	while(num2 > 0) {
 		printf("%d * %d = %d\n", num1, num2, num1*num2);
 		num2--;
 	}
